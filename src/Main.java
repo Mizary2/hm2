@@ -2,10 +2,15 @@
 // нажмите на значок <icon src="AllIcons.Actions.Execute"/> на полях.
 public class Main {
     public static void main(String[] args) {
-        var boxer1 = 78.2;
-        var boxer2 = 82.7;
-        var result = boxer2 % boxer1;
-        System.out.println("Остаток от деления boxer2 на boxer1 = " + result);
+        var workTime = 640;
+        var peopleWork = 8;
+        var people = workTime / peopleWork;
+        var newWork = 94;
+          System.out.println("Всего работников в компании — " + people + " человек");
+          System.out.println("Если в компании работает " + (people + newWork) + " человек, то всего " + workTime / (people + newWork)  + " часов работы может быть поделено между сотрудниками");
+
+
+
 
 
     }
